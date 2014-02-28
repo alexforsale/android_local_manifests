@@ -1,0 +1,23 @@
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+
+and:
+
+    curl -L -o .repo/local_manifests/p3100.xml -O -L https://raw.github.com/alexforsale/local_manifests/cm-11.0/p3100.xml
+
+Then to sync up:
+
+    repo sync
+
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+
