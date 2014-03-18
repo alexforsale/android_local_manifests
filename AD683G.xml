@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="caf" fetch="git://codeaurora.org/" review="codeaurora.org" revision="ics_strawberry" />
+
+<!--ril from caf /-->
+<remove-project name= "CyanogenMod/android_hardware_ril" />
+<project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
+
+<project path="device/hisense/msm7x27a-common" name="alexforsale/android_device_hisense_msm7x27a-common" remote="github" revision="ics" />
+
+<project path="device/hisense/AD683G" name="alexforsale/android_device_hisense_AD683G" remote="github" revision="ics" />
+
+</manifest>
