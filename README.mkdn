@@ -14,7 +14,7 @@ and for p3100:
 
 or for A16C3H:
 
-    curl -L -o .repo/local_manifests/AD683G.xml -O -L https://github.com/alexforsale/local_manifests/raw/ics/AD683G.xml
+    curl -L -o .repo/local_manifests/A16C3H.xml -O -L https://raw.githubusercontent.com/alexforsale/android_local_manifests/cm-12.1/A16C3H.xml
 
 Then to sync up:
 
