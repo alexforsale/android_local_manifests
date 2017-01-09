@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- manifest untuk smartfren A16C3H /-->
+<!-- manifest untuk smartfren A16C3H omnirom-5.1 /-->
 
   <remote name="caf"
           fetch="git://codeaurora.org"
           review="codeaurora.org" />
 
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-12.1" />
-  <project name="alexforsale/android_device_haier_A16C3H" path="device/haier/A16C3H" revision="cm-12.1" />
-  <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909" remote="caf" revision="14d2b2f0f1369f78cfc7fa6f273625ef5dd2e35b" upstream="LA.BR.1.2.3"/>
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="alexforsale/android_device_haier_A16C3H" path="device/haier/A16C3H" remote="github" revision="cm-12.1" />
+  <project name="alexforsale/android_device_qcom_msm8909" path="device/qcom/msm8909" remote="github" revision="A16C3H" />
 <!-- kernel hanya dibutuhkan untuk headers saat ini /-->
   <project name="kernel/msm-3.10" path="kernel/msm/msm-3.10" remote="caf" revision="e949182eeddc51d9a0ba639019476e01b1a08808" upstream="LA.BR.1.2.3"/>
 
-  <!--project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"  revision="cm-12.1-caf-8916" /-->
+  <!--project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" clone-depth="1" revision="cm-12.1-caf-8916" /-->
   <!--remove-project name="CyanogenMod/android_hardware_qcom_display" />
     <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display"  revision="cm-12.1-caf-8916" /-->
 

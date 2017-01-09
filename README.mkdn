@@ -4,9 +4,13 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the omnirom trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
+    repo init -u git://github.com/omnirom/android.git -b android-5.1
+
+To limit the depth of the commits in each projects you can use this:
+
+    repo init -u git://github.com/omnirom/android.git -b android-5.1 --depth=1
 
 and for p3100:
 
