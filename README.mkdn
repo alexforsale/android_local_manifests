@@ -24,8 +24,8 @@ Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Please see the [Omnirom docs](https://docs.omnirom.org/Setting_Up_A_Compile_Environment) for setting up environment instructions.
 
 For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+please [read the porting article](https://docs.omnirom.org/Porting_Omni_To_Your_Device) for information about porting to new devices
 
