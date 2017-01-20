@@ -15,8 +15,10 @@
 <!-- kernel hanya dibutuhkan untuk headers saat ini /-->
   <project name="kernel/msm-3.10" path="kernel/msm/msm-3.10" remote="caf" revision="e949182eeddc51d9a0ba639019476e01b1a08808" upstream="LA.BR.1.2.3"/>
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" revision="cm-12.1" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" revision="cm-12.1" />
 
+  <!--remove-project name="CyanogenMod/android_device_qcom_sepolicy" />
+  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" revision="LA.HB.1.3.1" /-->
   <!--project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"  revision="cm-12.1-caf-8916" /-->
   <!--remove-project name="CyanogenMod/android_hardware_qcom_display" />
     <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display"  revision="cm-12.1-caf-8916" /-->
