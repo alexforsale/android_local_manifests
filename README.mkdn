@@ -4,20 +4,16 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the codeaurora trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+    repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.BR.1.2.3-13810-8x09.0.xml --repo-url=git://codeaurora.org/tools/repo.git  --repo-branch=caf-stable --depth=1
 
 and:
 
-    curl -L -o .repo/local_manifests/p3100.xml -O -L https://raw.github.com/alexforsale/local_manifests/cm-11.0/p3100.xml
+    curl -L -o .repo/local_manifests/msm8909.xml -O -L https://raw.github.com/alexforsale/local_manifests/LA.BR.1.2.3-13810-8x09.0/msm8909.xml
 
 Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
-
+Please see the [Codeaurora releases](https://wiki.codeaurora.org/xwiki/bin/QAEP/release) for other releases, and [Android for MSM Project Xwiki](https://wiki.codeaurora.org/xwiki/bin/QAEP/) for build instructions.
